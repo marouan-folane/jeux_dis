@@ -1,11 +1,11 @@
 import React , {useState } from 'react'
-import De from './assets/images/Dé.PNG'
-import face1 from './assets/images/face1.PNG'
-import face2 from './assets/images/face2.PNG' 
-import face3 from './assets/images/face3.PNG'
-import face4 from './assets/images/face4.PNG'
-import face5 from './assets/images/face5.PNG'
-import face6 from './assets/images/face6.PNG'
+import De from './images/Dé.PNG'
+import face1 from "./images/face1.PNG"
+import face2 from './images/face2.PNG' 
+import face3 from './images/face3.PNG'
+import face4 from './images/face4.PNG'
+import face5 from './images/face5.PNG'
+import face6 from './images/face6.PNG'
 
 export default function JeuxDe({valeur , test , settest , val}) {
     const [numbre , setNumber] = useState(null)
